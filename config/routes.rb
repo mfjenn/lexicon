@@ -6,7 +6,7 @@ Lexicon::Application.routes.draw do
     get "sign_in", :to => "devise/sessions#new"
   end
 
-  root :to => 'home#index'
+  root :to => 'words#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
