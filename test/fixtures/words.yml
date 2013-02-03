@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  term: MyString
+  definition: MyString
+  example: MyString
+  scope: MyString
+  synonyms: MyString
+
+two:
+  term: MyString
+  definition: MyString
+  example: MyString
+  scope: MyString
+  synonyms: MyString

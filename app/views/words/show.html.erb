@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+ 
+<p>
+  <b>Term:</b>
+  <%= @word.term %>
+  
+</p>
+ 
+<p>
+  <b>Definition:</b>
+  <%= @word.definition %>
+</p>
+ 
+<p>
+  <b>Example:</b>
+  <%= @word.example %>
+</p>
+
+<p>
+  <b>Scope:</b>
+  <%= @word.scope %>
+  
+</p>
+ 
+<p>
+  <b>Synonyms:</b>
+  <%= @word.synonyms %>
+</p>
+ 
+
+ 
+ 
+<%= link_to 'Edit', edit_word_path(@word) %> |
+<%= link_to 'Back', words_path %> 
+
